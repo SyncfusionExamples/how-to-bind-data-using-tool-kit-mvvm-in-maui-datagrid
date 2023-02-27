@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=SyncFusion.Maui.DataGrid"
+             xmlns:vm="clr-namespace:SfDataGridDemoMVVM.ViewModel"
+             x:Class="SfDataGridDemoMVVM.MainPage">
+    <ContentPage.Content>
+        <syncfusion:SfDataGrid x:Name="datagrid" ItemsSource="{Binding Orders}" Margin="10" DefaultColumnWidth="150" HeaderGridLinesVisibility="Both" GridLinesVisibility="Both" AutoGenerateColumnsMode="None">
+
+            <syncfusion:SfDataGrid.Columns>
+                <syncfusion:DataGridTextColumn MappingName="OrderID"
+                                               HeaderText="Order ID"></syncfusion:DataGridTextColumn>
+                <syncfusion:DataGridTextColumn MappingName="CustomerID"
+                                               HeaderText="Customer ID"></syncfusion:DataGridTextColumn>
+                <syncfusion:DataGridTextColumn MappingName="Customer"
+                                               HeaderText="Name"></syncfusion:DataGridTextColumn>
+                <syncfusion:DataGridTextColumn MappingName="ShipCountry"
+                                               HeaderText="Country"></syncfusion:DataGridTextColumn>
+            </syncfusion:SfDataGrid.Columns>
+
+        </syncfusion:SfDataGrid>
+    </ContentPage.Content>
+</ContentPage>
