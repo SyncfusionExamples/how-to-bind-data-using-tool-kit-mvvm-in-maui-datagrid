@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SfDataGridDemoMVVM", "SfDataGridDemoMVVM\SfDataGridDemoMVVM.csproj", "{BEB9B8D8-99B0-4F52-AC1E-62EFE1125DC3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syncfusion.Maui.DataGrid", "..\..\..\MAUI-4845\dev\maui-datagrid\maui\src\datagrid\Syncfusion.Maui.DataGrid.csproj", "{DD02E2F2-B083-433A-8ADE-CA37A60A1F13}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +21,6 @@ Global
 		{BEB9B8D8-99B0-4F52-AC1E-62EFE1125DC3}.Release-Xml|Any CPU.ActiveCfg = Release|Any CPU
 		{BEB9B8D8-99B0-4F52-AC1E-62EFE1125DC3}.Release-Xml|Any CPU.Build.0 = Release|Any CPU
 		{BEB9B8D8-99B0-4F52-AC1E-62EFE1125DC3}.Release-Xml|Any CPU.Deploy.0 = Release|Any CPU
-		{DD02E2F2-B083-433A-8ADE-CA37A60A1F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD02E2F2-B083-433A-8ADE-CA37A60A1F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD02E2F2-B083-433A-8ADE-CA37A60A1F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD02E2F2-B083-433A-8ADE-CA37A60A1F13}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD02E2F2-B083-433A-8ADE-CA37A60A1F13}.Release-Xml|Any CPU.ActiveCfg = Release-Xml|Any CPU
-		{DD02E2F2-B083-433A-8ADE-CA37A60A1F13}.Release-Xml|Any CPU.Build.0 = Release-Xml|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
